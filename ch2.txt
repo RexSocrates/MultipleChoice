@@ -1,0 +1,40 @@
+Total: 20
+
+Ans:
+A	B	C	C	C
+B	D	A	B	C
+D	D	C	D	C
+D	C	B	C	C
+
+Question:
+1. Refer to Figure 2-3. Which shape refers to the markets for goods and services?a. 	oval A    
+b. 	oval B    
+c. 	rectangle 1    
+d. 	rectangle 22. Refer to Figure 2-3. What is flowing from rectangle 1 to oval A?a. 	revenue             
+b. 	goods and services soldc. 	factors of production   
+d. 	labor, land, and capital3. Refer to Figure 2-3. Which of the following is an activity undertaken by the actors in rectangle 2? a. 	produce and sell goods and services b. 	hire and use factors of production c. 	own and sell factors of production d. 	exchange goods and services between firms and households
+ Figure 2-84. Refer to Figure 2-8. Point K represents an outcome in which a. 	production is inefficient. b. 	some of the economy’s resources are unemployed. c. 	the economy is using all of its resources to produce hammers. d. 	the economy is using all of its nails to produce hammers.5.. Refer to Figure 2-8. Which point on the graph best represents the fact that, because resources are scarce, not every conceivable outcome is feasible?a. 	point J   
+b. 	point K   
+c. 	point L   
+d. 	point M6.. Refer to Figure 2-8. Efficient production is represented by which point(s)?a. J     
+b. J, K   
+c. J, K, L    
+d. J, K, M7. Refer to Figure 2-8. Inefficient production is represented by which point(s)?a. K, M   
+b. L   
+c.L, M    
+d. M8. Refer to Figure 2-8. To reach point L, the economy would have to a. 	acquire more resources or experience a technological advance. b. 	begin using its available resources more efficiently than it is currently using them. c. 	shift resources away from the production of nails and toward the production of hammers. d. 	None of the above are correct; the economy will never be able to reach point L.9. Refer to Figure 2-8. For this economy, as more and more hammers are produced, the opportunity cost of an additional hammer produced, in terms of nails,a. 	remains constant.
+b. 	increases.c. 	decreases.
+d. 	This answer cannot be determined from the graph. Figure 2-1610. Refer to Figure 2-16. If this economy devotes all of its resources to the production of gadgets, then it will producea. 	0 gadgets and 100 widgets.    
+b. 	50 gadgets and 70 widgets.c. 	100 gadgets and 0 widgets.    
+d. 	80 gadgets and 90 widgets.11. Refer to Figure 2-16. It is possible for this economy to producea. 	30 gadgets and 90 widgets.    
+b. 	50 gadgets and 80 widgets.c. 	80 gadgets and 50 widgets.    
+d. 	90 gadgets and 30 widgets.12. Refer to Figure 2-16. It is not possible for this economy to produce at pointa. A.
+b. B.  
+c. C.  
+d. D.13. Refer to Figure 2-16. Suppose this economy is producing at point B. Which of the following statements would best explain this situation? a. 	The economy does not have enough resources to produce more of either product. b. 	The economy’s available technology prevents it from producing more of either product. c. 	There is widespread unemployment in the economy. d. 	The economy is getting all it can from the scarce resources available.14. Refer to Figure 2-16. Efficient production is represented by which point(s)?a. B, D, E   
+b. D   
+c. C, B   
+d. A, C15. Refer to Figure 2-16. Inefficient production is represented by which point(s)?a. A, C   
+b. B, C   
+c. B, E   
+d. D16. A circular-flow diagram is a model that a. 	helps to explain how participants in the economy interact with one another. b. 	helps to explain how the economy is organized. c. 	incorporates all aspects of the real economy. d. 	Both (a) and (b) are correct.17. In the markets for goods and services in the circular-flow diagram, a. 	households provide firms with savings for investment. b. 	households provide firms with labor, land, and capital. c. 	firms provide households with output. d. 	firms provide households with profit.18. Any point on a country's production possibilities frontier represents a combination of two goods that an economy a. 	will never be able to produce. b. 	can produce using all available resources and technology. c. 	can produce using some portion, but not all, of its resources and technology. d. 	may be able to produce in the future with more resources and/or superior technology.19. Where can an economy not produce? a. 	inside its production possibilities frontier b. 	on its production possibilities frontier c. 	outside its production possibilities frontier d. 	at the endpoints of its production possibilities frontier20. Efficiency is illustrated by a. 	both the production possibilities frontier and the circular-flow diagram. b. 	neither the production possibilities frontier nor the circular-flow diagram. c. 	the production possibilities frontier only. d. 	the circular-flow diagram only.

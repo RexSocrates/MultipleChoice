@@ -60,7 +60,7 @@ def main():
             sys.exit("沒找到ans")
     
     for i in range(total):
-        if Ans[i] != "a" and Ans[i] != "b" and Ans[i] != "c" and Ans[i] != "d" and Ans[i] != "e" and Ans[i] != "A" and Ans[i] != "B" and Ans[i] != "C" and Ans[i] != "D" and Ans[i] != "E":
+        if Ans[i] != "a" and Ans[i] != "b" and Ans[i] != "c" and Ans[i] != "d" and Ans[i] != "e" and Ans[i] != "f" and Ans[i] != "g" and Ans[i] != "h" and Ans[i] != "A" and Ans[i] != "B" and Ans[i] != "C" and Ans[i] != "D" and Ans[i] != "E" and Ans[i] != "F" and Ans[i] != "G" and Ans[i] != "H":
             sys.exit("Ans不完整")
         if Ans[i] == "a":
             Ans[i] = 1
@@ -72,6 +72,12 @@ def main():
             Ans[i] = 4
         elif Ans[i] == "e":
             Ans[i] = 5
+        elif Ans[i] == "f":
+            Ans[i] = 6
+        elif Ans[i] == "g":
+            Ans[i] = 7
+        elif Ans[i] == "h":
+            Ans[i] = 8
         elif Ans[i] == "A":
             Ans[i] = 1
         elif Ans[i] == "B":
@@ -82,6 +88,12 @@ def main():
             Ans[i] = 4
         elif Ans[i] == "E":
             Ans[i] = 5
+        elif Ans[i] == "F":
+            Ans[i] = 6
+        elif Ans[i] == "G":
+            Ans[i] = 7
+        elif Ans[i] == "H":
+            Ans[i] = 8
         else:
             print("Answer換成數字出錯")
         
@@ -108,7 +120,7 @@ def main():
                 countFalse = 0
                 countOptions = 0
                 while findOptions == False:
-                    if line.find("a.") == 0 or line.find("b.") == 0 or line.find("c.") == 0 or line.find("d.") == 0 or line.find("e.") == 0 or line.find("A.") == 0 or line.find("B.") == 0 or line.find("C.") == 0 or line.find("D.") == 0 or line.find("E.") == 0 or line.find("a.") == 1 or line.find("b.") == 1 or line.find("c.") == 1 or line.find("d.") == 1 or line.find("e.") == 1 or line.find("A.") == 1 or line.find("B.") == 1 or line.find("C.") == 1 or line.find("D.") == 1 or line.find("E.") == 1 or line.find("a.") == 2 or line.find("b.") == 2 or line.find("c.") == 2 or line.find("d.") == 2 or line.find("e.") == 2 or line.find("A.") == 2 or line.find("B.") == 2 or line.find("C.") == 2 or line.find("D.") == 2 or line.find("E.") == 2:
+                    if line.find("a.") == 0 or line.find("b.") == 0 or line.find("c.") == 0 or line.find("d.") == 0 or line.find("e.") == 0 or line.find("f.") == 0 or line.find("g.") == 0 or line.find("h.") == 0 or line.find("A.") == 0 or line.find("B.") == 0 or line.find("C.") == 0 or line.find("D.") == 0 or line.find("E.") == 0 or line.find("F.") == 0 or line.find("G.") == 0 or line.find("H.") == 0 or line.find("a.") == 1 or line.find("b.") == 1 or line.find("c.") == 1 or line.find("d.") == 1 or line.find("e.") == 1 or line.find("f.") == 1 or line.find("g.") == 1 or line.find("h.") == 1 or line.find("A.") == 1 or line.find("B.") == 1 or line.find("C.") == 1 or line.find("D.") == 1 or line.find("E.") == 1 or line.find("F.") == 1 or line.find("G.") == 1 or line.find("H.") == 1 or line.find("a.") == 2 or line.find("b.") == 2 or line.find("c.") == 2 or line.find("d.") == 2 or line.find("e.") == 2 or line.find("f.") == 2 or line.find("g.") == 2 or line.find("h.") == 2 or line.find("A.") == 2 or line.find("B.") == 2 or line.find("C.") == 2 or line.find("D.") == 2 or line.find("E.") == 2 or line.find("F.") == 2 or line.find("G.") == 2 or line.find("H.") == 2:
                         if line.find("a.") == 0 or line.find("A.") == 0 or line.find("a.") == 1 or line.find("A.") == 1 or line.find("a.") == 2 or line.find("A.") == 2:
                             optionAmount[i-1] = 1
                             countOptions += 1
@@ -129,6 +141,18 @@ def main():
                             optionAmount[i-1] = 5
                             countOptions += 1
                             optionsCheck[i-1] = countOptions
+                        elif line.find("f.") == 0 or line.find("F.") == 0 or line.find("f.") == 1 or line.find("F.") == 1 or line.find("f.") == 2 or line.find("F.") == 2:
+                            optionAmount[i-1] = 6
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
+                        elif line.find("g.") == 0 or line.find("G.") == 0 or line.find("g.") == 1 or line.find("G.") == 1 or line.find("g.") == 2 or line.find("G.") == 2:
+                            optionAmount[i-1] = 7
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
+                        elif line.find("h.") == 0 or line.find("H.") == 0 or line.find("h.") == 1 or line.find("H.") == 1 or line.find("h.") == 2 or line.find("H.") == 2:
+                            optionAmount[i-1] = 8
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
                         else:
                             print("選項錯誤")
                         
@@ -139,7 +163,7 @@ def main():
                             Options[i-1].append(line)
                             line = f.readline()
                         countFalse = 0
-                    elif line.find("a)") == 0 or line.find("b)") == 0 or line.find("c)") == 0 or line.find("d)") == 0 or line.find("e)") == 0 or line.find("A)") == 0 or line.find("B)") == 0 or line.find("C)") == 0 or line.find("D)") == 0 or line.find("E)") == 0 or line.find("a)") == 1 or line.find("b)") == 1 or line.find("c)") == 1 or line.find("d)") == 1 or line.find("e)") == 1 or line.find("A)") == 1 or line.find("B)") == 1 or line.find("C)") == 1 or line.find("D)") == 1 or line.find("E)") == 1 or line.find("a)") == 2 or line.find("b)") == 2 or line.find("c)") == 2 or line.find("d)") == 2 or line.find("e)") == 2 or line.find("A)") == 2 or line.find("B)") == 2 or line.find("C)") == 2 or line.find("D)") == 2 or line.find("E)") == 2:
+                    elif line.find("a)") == 0 or line.find("b)") == 0 or line.find("c)") == 0 or line.find("d)") == 0 or line.find("e)") == 0 or line.find("f)") == 0 or line.find("g)") == 0 or line.find("h)") == 0 or line.find("A)") == 0 or line.find("B)") == 0 or line.find("C)") == 0 or line.find("D)") == 0 or line.find("E)") == 0 or line.find("F)") == 0 or line.find("G)") == 0 or line.find("H)") == 0 or line.find("a)") == 1 or line.find("b)") == 1 or line.find("c)") == 1 or line.find("d)") == 1 or line.find("e)") == 1 or line.find("f)") == 1 or line.find("g)") == 1 or line.find("h)") == 1 or line.find("A)") == 1 or line.find("B)") == 1 or line.find("C)") == 1 or line.find("D)") == 1 or line.find("E)") == 1 or line.find("F)") == 1 or line.find("G)") == 1 or line.find("H)") == 1 or line.find("a)") == 2 or line.find("b)") == 2 or line.find("c)") == 2 or line.find("d)") == 2 or line.find("e)") == 2 or line.find("f)") == 2 or line.find("g)") == 2 or line.find("h)") == 2 or line.find("A)") == 2 or line.find("B)") == 2 or line.find("C)") == 2 or line.find("D)") == 2 or line.find("E)") == 2 or line.find("F)") == 2 or line.find("G)") == 2 or line.find("H)") == 2:
                         if line.find("a)") == 0 or line.find("A)") == 0 or line.find("a)") == 1 or line.find("A)") == 1 or line.find("a)") == 2 or line.find("A)") == 2:
                             optionAmount[i-1] = 1
                             countOptions += 1
@@ -160,6 +184,18 @@ def main():
                             optionAmount[i-1] = 5
                             countOptions += 1
                             optionsCheck[i-1] = countOptions
+                        elif line.find("f)") == 0 or line.find("F)") == 0 or line.find("f)") == 1 or line.find("F)") == 1 or line.find("f)") == 2 or line.find("F)") == 2:
+                            optionAmount[i-1] = 6
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
+                        elif line.find("g)") == 0 or line.find("G)") == 0 or line.find("g)") == 1 or line.find("G)") == 1 or line.find("g)") == 2 or line.find("G)") == 2:
+                            optionAmount[i-1] = 7
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
+                        elif line.find("h)") == 0 or line.find("H)") == 0 or line.find("h)") == 1 or line.find("H)") == 1 or line.find("h)") == 2 or line.find("H)") == 2:
+                            optionAmount[i-1] = 8
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
                         else:
                             print("選項錯誤")
                         
@@ -170,7 +206,7 @@ def main():
                             Options[i-1].append(line)
                             line = f.readline()
                         countFalse = 0
-                    elif line.find("(a)") == 0 or line.find("(b)") == 0 or line.find("(c)") == 0 or line.find("(d)") == 0 or line.find("(e)") == 0 or line.find("(A)") == 0 or line.find("(B)") == 0 or line.find("(C)") == 0 or line.find("(D)") == 0 or line.find("(E)") == 0 or line.find("(a)") == 1 or line.find("(b)") == 1 or line.find("(c)") == 1 or line.find("(d)") == 1 or line.find("(e)") == 1 or line.find("(A)") == 1 or line.find("(B)") == 1 or line.find("(C)") == 1 or line.find("(D)") == 1 or line.find("(E)") == 1 or line.find("(a)") == 2 or line.find("(b)") == 2 or line.find("(c)") == 2 or line.find("(d)") == 2 or line.find("(e)") == 2 or line.find("(A)") == 2 or line.find("(B)") == 2 or line.find("(C)") == 2 or line.find("(D)") == 2 or line.find("(E)") == 2:
+                    elif line.find("(a)") == 0 or line.find("(b)") == 0 or line.find("(c)") == 0 or line.find("(d)") == 0 or line.find("(e)") == 0 or line.find("(f)") == 0 or line.find("(g)") == 0 or line.find("(h)") == 0 or line.find("(A)") == 0 or line.find("(B)") == 0 or line.find("(C)") == 0 or line.find("(D)") == 0 or line.find("(E)") == 0 or line.find("(F)") == 0 or line.find("(G)") == 0 or line.find("(H)") == 0 or line.find("(a)") == 1 or line.find("(b)") == 1 or line.find("(c)") == 1 or line.find("(d)") == 1 or line.find("(e)") == 1 or line.find("(f)") == 1 or line.find("(g)") == 1 or line.find("(h)") == 1 or line.find("(A)") == 1 or line.find("(B)") == 1 or line.find("(C)") == 1 or line.find("(D)") == 1 or line.find("(E)") == 1 or line.find("(F)") == 1 or line.find("(G)") == 1 or line.find("(H)") == 1 or line.find("(a)") == 2 or line.find("(b)") == 2 or line.find("(c)") == 2 or line.find("(d)") == 2 or line.find("(e)") == 2 or line.find("(f)") == 2 or line.find("(g)") == 2 or line.find("(h)") == 2 or line.find("(A)") == 2 or line.find("(B)") == 2 or line.find("(C)") == 2 or line.find("(D)") == 2 or line.find("(E)") == 2 or line.find("(F)") == 2 or line.find("(G)") == 2 or line.find("(H)") == 2:
                         
                         if line.find("(a)") == 0 or line.find("(A)") == 0 or line.find("(a)") == 1 or line.find("(A)") == 1 or line.find("(a)") == 2 or line.find("(A)") == 2: 
                             optionAmount[i-1] = 1
@@ -190,6 +226,18 @@ def main():
                             optionsCheck[i-1] = countOptions
                         elif line.find("(e)") == 0 or line.find("(E)") == 0 or line.find("(e)") == 1 or line.find("(E)") == 1 or line.find("(e)") == 2 or line.find("(E)") == 2:
                             optionAmount[i-1] = 5
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
+                        elif line.find("(f)") == 0 or line.find("(F)") == 0 or line.find("(f)") == 1 or line.find("(F)") == 1 or line.find("(f)") == 2 or line.find("(F)") == 2:
+                            optionAmount[i-1] = 6
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
+                        elif line.find("(g)") == 0 or line.find("(G)") == 0 or line.find("(g)") == 1 or line.find("(G)") == 1 or line.find("(g)") == 2 or line.find("(G)") == 2:
+                            optionAmount[i-1] = 7
+                            countOptions += 1
+                            optionsCheck[i-1] = countOptions
+                        elif line.find("(h)") == 0 or line.find("(H)") == 0 or line.find("(h)") == 1 or line.find("(H)") == 1 or line.find("(h)") == 2 or line.find("(H)") == 2:
+                            optionAmount[i-1] = 8
                             countOptions += 1
                             optionsCheck[i-1] = countOptions
                         else:
@@ -290,6 +338,7 @@ def main():
             
             for i in range(total):
                 print(Question[ranQuestion[i]])
+                print("(",i+1,"/", total,")")
                 print()
                 for j in range(optionAmount[ranQuestion[i]]):
                     print(j+1,end=")")
